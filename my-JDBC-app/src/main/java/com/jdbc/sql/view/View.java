@@ -8,7 +8,6 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.StringTokenizer;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -71,14 +70,9 @@ public class View extends JPanel implements ActionListener {
 
 	public String[] column; // get list of column names
 	public String[][] row; // get 2d list of table data
-	public String[] columnDatabase = new String[] { "id", "Databases" }; // setup for begining
-	public String[] columnTables = new String[] { "id", "Tables" }; // setup for begining
+	public String[] columnDatabase = new String[] { "id", "Databases" }; // setup for beginning
+	public String[] columnTables = new String[] { "id", "Tables" }; // setup for beginning 
 
-//	public static String IP;
-//	public static String username;
-//	public static String pass;
-
-	// public Communication conn;
 	public ArrayList<String> databaseList;
 	public ArrayList<String> tableList;
 
